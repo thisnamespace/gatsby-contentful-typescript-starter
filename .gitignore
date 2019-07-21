@@ -1,0 +1,11 @@
+.cache
+bin
+node_modules
+public
+dist
+
+*-lock.json
+yarn.lock
+
+.env
+.contentful.json
