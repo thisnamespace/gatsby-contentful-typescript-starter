@@ -56,7 +56,7 @@ Gatsby starter with Contentful and TypeScript configuration.
     
     *Note: You'll also see a second link: `http://localhost:8000___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://next.gatsbyjs.org/tutorial/part-five/#introducing-graphiql).*
     
-    Open the the `gatsby-contentful-typescript-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the the `gatsby-contentful-typescript-starter` directory in your code editor of choice and edit `src/pages/index.ts`. Save your changes and the browser will update in real time!
     
 ## 🧐 What's inside?
 
