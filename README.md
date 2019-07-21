@@ -30,18 +30,23 @@ Gatsby starter with Contentful and TypeScript configuration.
     gatsby new gatsby-contentful-typescript-starter https://github.com/thisnamespace/gatsby-contentful-typescript-starter
     ```
 
-3. **Set Contentful API keys.**
-
-    Rename **`empty.env`** to **`.env`** and set your Contentful API variables
-
-    Or alternatively you can run **`npm run setup`** this will attempt to import a content-type, content and assets.
-
-3.  **Start developing.**
+3.  **Navigate to your Site directory.**
 
     Navigate into your new site’s directory and start it up.
 
     ```sh
     cd gatsby-contentful-typescript-starter
+    ```
+
+
+3. **Set Contentful API keys and Start developing.**
+
+    Rename **`empty.env`** to **`.env`** and set your Contentful API variables
+    Or alternatively you can run **`npm run setup`** this will attempt to import a content-type, content and assets.
+    And then start it up.
+    
+    ```sh
+    npm run setup
     gatsby develop
     ```
 
