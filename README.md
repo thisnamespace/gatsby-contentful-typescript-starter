@@ -27,7 +27,7 @@ Gatsby starter with Contentful and TypeScript configuration.
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby gatsby-contentful-typescript-starter https://github.com/thisnamespace/gatsby-contentful-typescript-starter
+    gatsby new gatsby-contentful-typescript-starter https://github.com/thisnamespace/gatsby-contentful-typescript-starter
     ```
 
 3. **Set Contentful API keys.**
