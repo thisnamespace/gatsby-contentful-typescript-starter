@@ -1,0 +1,214 @@
+{
+  "contentTypes": [{
+    "sys": {
+      "id": "page",
+      "type": "ContentType"
+    },
+    "displayField": "title",
+    "name": "Page",
+    "description": "Static pages for your site.",
+    "fields": [{
+        "id": "title",
+        "name": "Title",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": [{
+          "unique": true
+        }],
+        "disabled": false,
+        "omitted": false
+      },
+      {
+        "id": "slug",
+        "name": "Slug",
+        "type": "Symbol",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "disabled": false,
+        "omitted": false
+      },
+      {
+        "id": "description",
+        "name": "Description",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": [],
+        "disabled": false,
+        "omitted": false
+      },
+      {
+        "id": "body",
+        "name": "Body",
+        "type": "Text",
+        "localized": false,
+        "required": true,
+        "validations": [],
+        "disabled": false,
+        "omitted": false
+      }
+    ]
+  }],
+  "editorInterfaces": [{
+    "sys": {
+      "id": "default",
+      "type": "EditorInterface",
+      "space": {
+        "sys": {
+          "type": "Link",
+          "linkType": "Space"
+        }
+      },
+      "contentType": {
+        "sys": {
+          "id": "page",
+          "type": "Link",
+          "linkType": "ContentType"
+        }
+      },
+      "environment": {
+        "sys": {
+          "id": "master",
+          "type": "Link",
+          "linkType": "Environment"
+        }
+      }
+    },
+    "controls": [{
+        "fieldId": "title",
+        "widgetId": "singleLine",
+        "widgetNamespace": "builtin"
+      },
+      {
+        "fieldId": "slug",
+        "widgetId": "singleLine",
+        "widgetNamespace": "builtin"
+      },
+      {
+        "fieldId": "description",
+        "widgetId": "singleLine",
+        "widgetNamespace": "builtin"
+      },
+      {
+        "fieldId": "body",
+        "widgetId": "markdown",
+        "widgetNamespace": "builtin"
+      }
+    ]
+  }],
+  "entries": [],
+  "assets": [{
+      "sys": {
+        "type": "Asset"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Fireworks"
+        },
+        "description": {
+          "en-US": "Sample image of fireworks."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/2ujhzeseqbln/7vtkK7jRp0KxsrA76XK5CD/3ed13ff3fc029214d641c0e804b8ad8b/buildings-celebration-city-1268667.jpg",
+            "details": {
+              "size": 1586949,
+              "image": {
+                "width": 3801,
+                "height": 2282
+              }
+            },
+            "fileName": "buildings-celebration-city-1268667.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "type": "Asset"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Sparkler"
+        },
+        "description": {
+          "en-US": "Sample image of a sparkler."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/2ujhzeseqbln/4X41KVT5nTyjprnBft3VNl/95861fcf44e0868f3ce31355472d5a58/art-blur-bright-285173.jpg",
+            "details": {
+              "size": 1915724,
+              "image": {
+                "width": 5097,
+                "height": 3398
+              }
+            },
+            "fileName": "art-blur-bright-285173.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "type": "Asset"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Code Splash"
+        },
+        "description": {
+          "en-US": "Sample image of a code section."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/2ujhzeseqbln/1lnEXwKfCDOk6tRe4Pq6hd/f8e66169bd8a4326b9dc6f13cbab8b23/markus-spiske-AaEQmoufHLk-unsplash.jpg",
+            "details": {
+              "size": 1624929,
+              "image": {
+                "width": 5760,
+                "height": 3840
+              }
+            },
+            "fileName": "markus-spiske-AaEQmoufHLk-unsplash.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "type": "Asset"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Network"
+        },
+        "description": {
+          "en-US": "Sample image of network."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/2ujhzeseqbln/72PPAQ0jsoE3R3PLfErn2h/553b5e5494da031ae4d0d7d7528b2ade/nasa-Q1p7bh3SHj8-unsplash.jpg",
+            "details": {
+              "size": 1092783,
+              "image": {
+                "width": 4256,
+                "height": 2832
+              }
+            },
+            "fileName": "nasa-Q1p7bh3SHj8-unsplash.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [],
+  "webhooks": [],
+  "roles": []
+}
